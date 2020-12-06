@@ -14,6 +14,7 @@ RUN CGO_ENABLED=0 GOOS=linux go build -ldflags="-w -s" -a -installsuffix cgo -o 
 # build a small image
 FROM alpine:3.11.6
 LABEL language="golang"
+LABEL org.opencontainers.image.source https://github.com/mmorejon/erase-una-vez-4
 # Create appuser.
 RUN adduser -D -g '' elf
 # copy the static executable
