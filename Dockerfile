@@ -1,5 +1,5 @@
-# golang alpine 1.13.5-alpine
-FROM golang:1.14.2-alpine AS builder
+# golang alpine
+FROM golang:1.16.2-alpine AS builder
 # Create workspace
 WORKDIR /opt/app/
 COPY go.mod .
@@ -12,14 +12,14 @@ COPY . .
 RUN CGO_ENABLED=0 GOOS=linux go build -ldflags="-w -s" -a -installsuffix cgo -o /go/bin/erase-una-vez-4 .
 
 # build a small image
-FROM alpine:3.11.6
+FROM alpine:3.13.2
 LABEL language="golang"
 LABEL org.opencontainers.image.source https://github.com/mmorejon/erase-una-vez-4
 # Create appuser.
 RUN adduser -D -g '' elf
 # copy the static executable
-COPY --from=builder /go/bin/erase-una-vez-4 /go/bin/erase-una-vez-4
+COPY --from=builder /go/bin/erase-una-vez-4 /usr/local/bin/erase-una-vez-4
 # use an unprivileged user.
 USER elf
 # run app
-ENTRYPOINT ["/go/bin/erase-una-vez-4"]
+ENTRYPOINT ["erase-una-vez-4"]
