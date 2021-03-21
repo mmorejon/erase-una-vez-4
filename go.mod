@@ -1,6 +1,6 @@
 module github.com/mmorejon/erase-una-vez-4
 
-go 1.14
+go 1.16
 
 require (
 	golang.org/x/crypto v0.0.0-20200429183012-4b2356b1ed79 // indirect
@@ -11,5 +11,4 @@ require (
 	k8s.io/apimachinery v0.18.2
 	k8s.io/client-go v0.18.1
 	k8s.io/utils v0.0.0-20200414100711-2df71ebbae66 // indirect
-	sigs.k8s.io/structured-merge-diff v0.0.0-20190525122527-15d366b2352e // indirect
 )
