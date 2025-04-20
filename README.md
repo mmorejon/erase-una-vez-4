@@ -2,6 +2,8 @@
 
 Aplicación Golang utilizada en los ejercicios del libro [Érase una vez Kubernetes](https://leanpub.com/erase-una-vez-kubernetes).
 
+Traduction: [Inglés](README_en.md)
+
 ## Descripción
 
 La aplicación consulta el número de Pods existentes en el Namespace e imprime un mensaje con esta información en la consola.
