@@ -1,8 +1,21 @@
-# Once Upon a Time Kubernetes
+# erase-una-vez-4
 
-Golang application used in the exercises of the book [Once Upon a Time Kubernetes](https://leanpub.com/erase-una-vez-kubernetes).
+[![es](https://img.shields.io/badge/Leer_en-Español-blue.svg?style=flat-square)](README.md)
 
-Traducción: [Español](README.md)
+<div align="center">
+
+<img src="./assets/book-cover.jpg" alt="Once Upon a Time Kubernetes Book Cover" width="300"/>
+
+This repository is a practical example created for the book **"Once Upon a Time Kubernetes"**.
+
+👇 **Get the updated 2026 edition here:** 👇
+
+[![Amazon](https://img.shields.io/badge/Amazon-Buy_Paperback-orange?style=for-the-badge&logo=amazon)](https://www.amazon.es/dp/B0F9VPCJ7X)
+[![LeanPub](https://img.shields.io/badge/LeanPub-Download_Ebook-blue?style=for-the-badge&logo=leanpub)](https://leanpub.com/once-upon-a-time-kubernetes)
+
+</div>
+
+---
 
 ## Description
 
@@ -50,3 +63,16 @@ Existen 0 pods en el namespace default
 Existen 0 pods en el namespace default
 Existen 0 pods en el namespace default
 ```
+
+---
+
+## 🤝 Community and Feedback
+
+1.  ⭐ **Has this been useful to you?** Give a **star** to the repository (top right). It helps us reach more engineers.
+2.  📚 **Still don't have the book?** Buy the book on Amazon or Leanpub.
+
+<div align="center">
+    <a href="https://www.amazon.es/dp/B0F9VPCJ7X">
+        <img src="https://img.shields.io/badge/Amazon-See_price_and_reviews-orange?style=for-the-badge&logo=amazon" />
+    </a>
+</div>
